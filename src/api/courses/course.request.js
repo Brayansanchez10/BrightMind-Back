@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const api = 'http://localhost:3068/PE/courses/'; 
+const api = 'https://back-brightmind.vercel.app/PE/courses/'; 
 
 const courseRequest = axios.create({
   baseURL: api,
